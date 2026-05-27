@@ -27,7 +27,6 @@ app.include_router(visits.router)
 app.include_router(treatments.router)
 app.include_router(audit.router)
 
-
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
