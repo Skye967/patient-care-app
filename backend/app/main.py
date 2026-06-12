@@ -16,6 +16,7 @@ app = FastAPI(
 # Register global exception handler
 app.add_exception_handler(Exception, global_exception_handler)
 
+
 # Initialize database
 init_db()
 
